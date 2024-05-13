@@ -9,19 +9,19 @@ ruby '>= 2.5.0', '< 2.7.0'
 
 gem 'rails', '~> 5.2', '>= 5.2.3'
 gem 'pg', '~> 1.1', '>= 1.1.4'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 5.6'
 
 gem 'active_model_serializers', '~> 0.10.8'
 gem 'bootsnap', '~> 1.3', require: false
 gem 'counter_culture', '~> 1.12'
-gem 'devise', '~> 4.5'
+gem 'devise', '~> 4.7'
 gem 'dotenv-rails', '~> 2.6'
 gem 'uglifier', '~> 4.1'
 gem 'webpacker', '~> 4.0'
 
 group :development do
   gem 'awesome_print', '~> 1.8'
-  gem 'better_errors', '~> 2.4'
+  gem 'better_errors', '~> 2.8'
   gem 'binding_of_caller', '~> 0.8.0'
   gem 'debug-extras'
   gem 'listen', '~> 3.1'
